@@ -93,7 +93,6 @@
   display: flex;
   min-height: 100px;
   justify-content: center;
-  display: flex;
   justify-content: space-between;
 }
 .main-text {
