@@ -93,15 +93,14 @@
   display: flex;
   min-height: 100px;
   justify-content: center;
+  display: flex;
+  justify-content: space-between;
 }
 .main-text {
   display: flex;
   flex-direction: column;
 }
-.description__two-columns {
-  display: flex;
-  justify-content: space-between;
-}
+
 .description__two-columns_brief {
   display: flex;
   width: 175px;
@@ -361,7 +360,6 @@
   margin: 20px 0px 16px;
 }
 .footer__column-links_font {
-  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
