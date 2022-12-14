@@ -73,7 +73,7 @@
   z-index: 1;
   width: 765px;
   height: 608px;
-  object-fit: contain;
+  object-fit: cover;
 }
 .description {
   margin-top: 100px;
@@ -176,7 +176,7 @@
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
-  object-fit: contain;
+  object-fit: cover;
 }
 .feynman__title {
   margin: 100px 0 0;
