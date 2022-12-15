@@ -217,6 +217,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #1f1f1f;
+  z-index: 1;
 }
 .section-title_theme_dark {
   color: #f2f2f2;
@@ -224,7 +225,6 @@
 }
 .section-subtitle_theme_dark {
   color: #f2f2f2;
-  margin: 20px 0 0 0;
 }
 .table_theme_dark {
   margin: 0 auto 90px;
@@ -243,6 +243,7 @@
   position: absolute;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 .footer {
   min-height: 350px;
@@ -284,14 +285,14 @@
   font-weight: 600;
   margin: 0;
 }
-.footer__column_link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
   color: #f2f2f2;
 }
-.footer__social_icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
