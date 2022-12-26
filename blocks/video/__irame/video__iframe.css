@@ -1,6 +1,7 @@
 .video__iframe {
   transform: translate(0px 100px);
   margin: 50px auto 0;
+  border: none;
 }
 
 .video__iframe:nth-child(2) {
